@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.background-container {
+    position: relative;
+    width: 1180px;
+    height: 820px;
+    background-image: url("../../modul/images/Schwarzsee-2009.jpg");
+}
+
+#output {
+    position: absolute;
+    font-size: 50px;
+    text-align: center; 
+    color: aquamarine;
+}

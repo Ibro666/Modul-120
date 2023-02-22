@@ -1,0 +1,210 @@
+@font-face {
+    font-family: Graviola;
+    src: url("./Schriften/Harbor\ Type\ -\ Graviola-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Graviola;
+    font-weight: bold;
+    src: url("./Schriften/Harbor\ Type\ -\ Graviola-Heavy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Graviola;
+    font-weight: 500;
+    src: url("./Schriften/Harbor\ Type\ -\ Graviola-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Graviola;
+    font-weight: 300;
+    src: url("./Schriften/Harbor\ Type\ -\ Graviola-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Graviola;
+    src: url("./Schriften/Harbor\ Type\ -\ Graviola-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Graviola;
+    src: url("./Schriften/Harbor\ Type\ -\ Graviola-Book.otf") format("opentype");
+} 
+
+@font-face {
+    font-family: Graviola;
+    src: url("./Schriften/Harbor\ Type\ -\ Graviola-Thin.otf") format("opentype");
+}
+
+title {
+    font-family: Graviola;
+}
+
+body {
+    /* width: 1180px;
+    height: 820px; */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #FFF0ED;
+}
+
+div {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    border-radius: 8px;
+
+    background: linear-gradient(145deg, #fff0ede0, #FFF0ED);
+    box-shadow:  20px 20px 60px #fff0ede0,
+             -20px -20px 60px #FFF0ED;
+
+}
+
+.container {
+    text-align: center;
+    margin: 6px;
+    padding: 0;
+}
+
+.element {
+    display: inline-block;
+    padding: 6px;
+    margin: 6px;
+}
+
+.display-container {
+    top: 7%;
+    left: 7%;
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    overflow: scroll;
+    display: inline-block;
+    background: #fff0ed;
+    box-shadow: inset 24px 24px 48px #d9ccc9,
+            inset -24px -24px 48px #ffffff;
+}
+
+p {
+    font-family: Graviola;
+}
+
+.display {
+    box-shadow: none;
+}
+
+.travel-type { 
+    top: 7%;
+    height: 50px;
+    width: 90px;
+    border-radius: 60%;
+    background: linear-gradient(145deg, #e6d8d5, #fffffe);
+    box-shadow:  24px 24px 48px #877f7e,
+             -24px -24px 48px #ffffff;
+}
+
+.button-container {
+    position: absolute;
+    top: 7%;
+    right: 7%;
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    overflow: scroll;
+    background: #fff0ed;
+    box-shadow: inset 24px 24px 48px #d9ccc9,
+            inset -24px -24px 48px #ffffff;
+}
+
+span.target-buttons a {
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 7px;
+    min-height: 50px;
+    text-decoration: none;
+
+    font-size: 20px;
+    font-family: Graviola;
+
+    background: linear-gradient(145deg, #e6d8d5, #fffffe);
+    box-shadow:  24px 24px 48px #877f7e,
+             -24px -24px 48px #ffffff;
+}
+
+span.target-buttons a:active {
+    background: #7f7f7f;
+    text-decoration: none;  
+}
+
+
+.button:active {
+    background: #7f7f7f;
+    text-decoration: none;    
+}
+
+.button::before {
+    background: linear-gradient(145deg, #e6d8d5, #fffffe);
+    box-shadow:  24px 24px 48px #877f7e,
+             -24px -24px 48px #ffffff;
+    text-decoration: none;    
+}
+
+.button::after {
+    background: #7f7f7f;
+    text-decoration: none;    
+}
+
+
+details {
+    font-size: 12px;
+}
+
+span {
+    display: inline;
+    border-radius: 8px;
+}
+
+a {
+    font-family: Graviola;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background: linear-gradient(145deg, #e6d8d5, #fffffe);
+    box-shadow:  24px 24px 48px #877f7e,
+             -24px -24px 48px #ffffff;
+    
+}
+
+
+footer {
+    position: absolute;
+    bottom: 40px;
+    right: 7%;
+    font-family: Graviola;
+    font-size: 24px;
+}
+
+.cansel {
+    position: fixed;
+    bottom: 29px;
+    left: 7%;
+    
+    background: linear-gradient(145deg, #e6d8d5, #E50010);
+    box-shadow:  24px 24px 48px #877f7e,
+             -24px -24px 48px #ffffff;
+}
